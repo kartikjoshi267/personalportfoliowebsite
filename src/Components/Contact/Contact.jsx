@@ -4,7 +4,7 @@ import { FaMailBulk, FaWhatsapp } from 'react-icons/fa'
 
 export default function Contact() {
     return (
-        <div id='contact' data-aos='flip-left'  className='contact'>
+        <div id='contact' className='contact'>
             <div className="contact-title">
                 <small>Get in Touch</small>
                 <big>Contact Me</big>

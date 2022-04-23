@@ -28,7 +28,7 @@ export default function Home(props) {
                     </button>
                 </div>
                 <div className="picture">
-                    <img src="./assets/home_img.jpg" alt="home_img" />
+                    <img src="./home_img.jpg" alt="home_img" />
                 </div>
             </div>
         </div>

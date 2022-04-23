@@ -16,7 +16,7 @@ export default function About() {
             <div className="about-main">
                 <div className="about-img">
                     <div className="behind">
-                        <img src="./assets/about_img.jpg" alt="about_img" />
+                        <img src="./about_img.jpg" alt="about_img" />
                     </div>
                 </div>
                 <div className="about-text">
