@@ -1,0 +1,85 @@
+div.container{
+    margin: 100px;
+}
+
+div.title{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+div.title small{
+    font-size: 1em;
+}
+
+div.title small:nth-of-type(1){
+    font-weight: bold;
+}
+
+div.title big{
+    font-size: 3em;
+    margin: auto;
+    font-weight: 600;
+}
+
+div.buttons{
+    margin: 12px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn{
+    font-weight: 600;
+    margin: 5px 5px;
+    padding: 12px;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+button.btn-outline-primary{
+    border: 2px solid rgb(0, 200, 255);
+    color: rgb(0, 200, 255);
+    background-color: transparent;
+    transition: 0.5s ease all;
+}
+
+button.btn-outline-primary:hover{
+    border: 2px solid white;
+    color: rgb(0, 26, 78);
+    background-color: white;
+}
+
+button.btn-primary{
+    border: 2px solid rgb(0, 200, 255);
+    color: rgb(0, 26, 78);
+    background-color: rgb(0, 200, 255);
+    transition: 0.5s ease all;
+}
+
+button.btn-primary:hover{
+    border: 2px solid white;
+    color: rgb(0, 26, 78);
+    background-color: white;
+}
+
+div.picture{
+    text-align: center;
+    margin: 32px auto 12px auto;
+    width: 80%;
+    min-width: 200px;
+    max-width: 400px;
+    height: min-content;
+    border-radius: 45% 45% 12px 12px;
+    background: linear-gradient(rgb(0, 171, 234), rgba(0, 172, 234, 0.533), rgba(0, 172, 234, 0.1));
+}
+
+div.picture img{
+    width: 100%;
+}

@@ -1,0 +1,58 @@
+.footer{
+    background-color: rgb(2, 30, 170);
+    color: white;
+    padding: 22px;
+}
+
+.footer h5{
+    text-align: center;
+    font-size: 2em;
+    margin: 12px;
+}
+
+.footer-nav{
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav a{
+    color: white;
+    margin: auto 20px;
+    text-decoration: none;
+    transition: 0.5s ease all;
+}
+
+.footer-nav a:hover{
+    text-decoration: underline;
+}
+
+.footer-social-handles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-social-handles a{
+    font-size: 1.3em;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 110);
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    transition: 0.4s ease all;
+}
+
+.footer-social-handles a:hover{
+    background-color: white;
+    color: rgb(0, 0, 110);
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 102px;
+}

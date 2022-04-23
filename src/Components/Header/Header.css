@@ -1,0 +1,30 @@
+div.header{
+    position: absolute;
+    top: 440px;
+    left: 4%;
+}
+
+ul.header-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.4em;
+    align-items: center;
+    justify-content: left;
+}
+
+li.header-listitem a{
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+    transition: 0.6s ease all;
+}
+
+li.header-listitem a:hover{
+    color: white;
+}
+
+.last{
+    width: 2px;
+    height: 40px;
+    background-color: rgb(0, 217, 255);
+}

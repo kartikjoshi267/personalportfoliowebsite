@@ -1,0 +1,83 @@
+.contact {
+    margin: 40px 32px;
+    color: white;
+}
+
+.contact-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title big{
+    color: rgb(80, 185, 255);
+}
+
+.contact-form-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 12px;
+}
+
+.contact-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    margin: 22px;
+    padding: 22px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    min-width: 200px;
+    background-color: rgb(32, 0, 106);
+    border-radius: 32px;
+}
+
+.option a{
+    color: rgb(139, 220, 255);
+}
+
+.form form{
+    margin: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input{
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 12px;
+    color: white;
+    margin: 12px auto;
+    width: 100%;
+    height: 50px;
+    border: 2px solid white;
+    background-color: inherit;
+}
+
+.form form textarea{
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 12px;
+    color: white;
+    margin: 12px auto;
+    width: 100%;
+    height: 150px;
+    border: 2px solid white;
+    background-color: inherit;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.form form button{
+    width: 50%;
+    font-size: small;
+}
