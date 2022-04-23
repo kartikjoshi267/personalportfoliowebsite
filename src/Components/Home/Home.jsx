@@ -7,8 +7,7 @@ export default function Home(props) {
     }
 
     const download = () => {
-        window.open("https://drive.google.com/file/d/1-ECayXcr9gh0DeI8zI_d7NeQJdobnOPD/view?usp=sharing", '_blank')
-        // window.location.href="https://drive.google.com/file/d/1-ECayXcr9gh0DeI8zI_d7NeQJdobnOPD/view?usp=sharing?target=_blank";
+        window.open("https://drive.google.com/file/d/1-ECayXcr9gh0DeI8zI_d7NeQJdobnOPD/view?usp=sharing", '_blank');
     }
 
     return (
