@@ -3,7 +3,7 @@ import "./Home.css"
 
 export default function Home(props) {
     const redirectToContact = () => {
-        window.location.href="/#contact";
+        window.location.href="#contact";
     }
 
     const download = () => {

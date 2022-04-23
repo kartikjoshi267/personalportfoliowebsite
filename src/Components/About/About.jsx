@@ -3,7 +3,7 @@ import "./About.css"
 
 export default function About() {
     const redirect = () => {
-        window.location.href="/#contact";
+        window.location.href="#contact";
     }
 
     return (
