@@ -5,4 +5,55 @@ body{
 #projects{
     text-align: center;
     font-size: large;
+    margin: auto 1em;
+}
+
+.project-area, .projects-list{
+    text-align: left;
+    width: 70%;
+    margin-left: 1em;
+}
+
+.project-area{
+    display: flex;
+    align-content: top;
+}
+
+.side-bar-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-list{
+    margin-left: 1em;
+}
+
+.side-bar{
+    height: 100%;
+    margin: auto auto;
+    background-color: white;
+    width: 1px;
+}
+
+.project-title{
+    font-size: 2em;
+    color: rgb(141, 234, 255);
+}
+
+.project-link{
+    margin-top: 1em;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.project-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.project-link a:hover{
+    text-decoration: underline;
 }
